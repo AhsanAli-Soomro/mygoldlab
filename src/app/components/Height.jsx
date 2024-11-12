@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 
-export const Weight = () => {
+export const Height = () => {
   const [inputs, setInputs] = useState({
     weight: "",
     refignedWeight: "",
@@ -34,7 +34,7 @@ export const Weight = () => {
       <div className="w-full max-w-xs">
         <form className="bg-white shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
           <h2 className="text-2xl font-bold text-center text-blue-600 mb-6">
-            Weight Calculator
+            Height Calculator
           </h2>
           <div className="mb-4">
             <label
