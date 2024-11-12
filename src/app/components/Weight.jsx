@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 
-export default function Home() {
+export const Weight = () => {
   const [inputs, setInputs] = useState({
     weight: "",
     refignedWeight: "",
